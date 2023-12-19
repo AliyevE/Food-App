@@ -1,0 +1,324 @@
+@media screen and (max-width: 820px) {
+
+    .flex_red_container #left_phone {
+        left: 150px;
+    }
+
+    .flex_red_container #right_phone {
+        left: 400px;
+    }
+
+    .flex_white_container {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .flex_white_right {
+
+        text-align: center;
+    }
+
+    .flex_explore_container {
+        flex-direction: column;
+
+    }
+
+    .flex_explore_left {
+
+        text-align: center;
+    }
+
+    .flex_checkout_container {
+        flex-direction: column-reverse;
+
+    }
+
+    .flex_checkout_right {
+
+        text-align: center;
+    }
+
+    .menu_nav {
+
+        display: flex;
+        padding-right: 50px;
+        gap: 54px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 769px) {
+
+
+    .download_container {
+
+        background-image: url('');
+        background-color: #252B42;
+
+
+    }
+
+    .phone_footer_btns {
+        display: block;
+
+    }
+    .header_flex_container{
+        display: none;
+    }
+
+    .header_main {
+        background-image: url('');
+    }
+
+    .header_main h2 {
+
+        color: black;
+
+    }
+
+    .header_main h1 {
+        color: black;
+    }
+
+    .header_main h3 {
+        color: black;
+    }
+
+    .header_flex_container {
+        align-items: center;
+        padding-top: 54px;
+        gap: 34px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .App_store {
+        color: black;
+        border: 1px solid black;
+    }
+
+    .flex_red_container #left_phone {
+        left: 150px;
+        top: 0;
+        width: 250px;
+        height: 537px;
+
+    }
+
+    .flex_red_container #right_phone {
+        width: 250px;
+        height: 490px;
+        left: 400px;
+        top: 0;
+    }
+
+    .footer_img {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding-top: 36px;
+        padding-bottom: 53px;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .footer_copywright {
+        display: none;
+    }
+
+    .after_footer {
+        display: block;
+        color: black;
+    }
+
+    .menu_nav {
+        margin-top: 0;
+        margin-right: 0;
+        gap: 20px;
+        flex-direction: column;
+        width: 200px;
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.477);
+        position: fixed;
+        left: -300px;
+        top: 0;
+        padding-top: 20px;
+        transition: 0.5s ease-in;
+    }
+
+    #resp_check:checked~.menu_nav {
+        left: -70px;
+
+    }
+
+    #resp_icon {
+
+        display: block;
+        color: #737373;
+        width: 20px;
+        height: 16px;
+        margin-right: 30px;
+        margin-top: 70px;
+        font-size: 25px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .flex_red_container #left_phone {
+        left: 100px;
+        top: 50px;
+        width: 240px;
+        height: 487px;
+    }
+
+    .flex_red_container #right_phone {
+        left: 310px;
+        top: 100px;
+        width: 240px;
+        height: 487px;
+    }
+
+    .red_container {
+        border-bottom: 2px solid #E4E4E4;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+
+    .flex_red_container #left_phone {
+        left: 50px;
+        top: 110px;
+        width: 200px;
+        height: 440px;
+    }
+
+    .flex_red_container #right_phone {
+        left: 230px;
+        top: 160px;
+        width: 200px;
+        height: 440px;
+    }
+
+    .flex_white_left img {
+        max-width: 400px;
+
+    }
+
+    .flex_explore_right img {
+        max-width: 400px;
+    }
+
+    .flex_checkout_left img {
+        max-width: 400px;
+    }
+
+    .header_main h1 {
+        font-size: 500%;
+    }
+    .phone_footer_btns {
+        padding-top: 50px;
+        padding-left: 170px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .flex_red_container #left_phone {
+        left: 30px;
+        top: 110px;
+        width: 200px;
+        height: 440px;
+    }
+
+    .flex_red_container #right_phone {
+        left: 215px;
+        top: 160px;
+        width: 200px;
+        height: 440px;
+    }
+
+    .phone_footer_btns {
+        padding-top: 50px;
+        padding-left: 90px;
+    }
+    .download_container h1 {
+        font-size: 300%;
+    }
+    .download_container p {
+        font-size: 200%;
+        
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .header_main h1 {
+        font-size: 360%;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .header_main h3 {
+
+        font-size: 240%;
+    }
+
+    .header_top_container {
+        gap: 40px;
+    }
+
+    .header_top_container img {
+        width: 140px;
+        height: 70px;
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+
+    .flex_red_container #left_phone {
+        left: 30px;
+        top: 110px;
+        width: 175px;
+        height: 400px;
+    }
+
+    .flex_red_container #right_phone {
+        left: 190px;
+        top: 160px;
+        width: 175px;
+        height: 400px;
+    }
+
+    .flex_white_left img {
+        max-width: 370px;
+
+    }
+
+    .flex_explore_right img {
+        max-width: 370px;
+    }
+
+    .flex_checkout_left img {
+        max-width: 370px;
+    }
+
+    .download_container .header_flex_container {
+        margin-top: -30px;
+    }
+    
+}
